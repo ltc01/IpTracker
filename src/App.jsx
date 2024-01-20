@@ -105,7 +105,7 @@ function App() {
               value={ipadress}
             />
             <button onClick={handleTrackIP} className="w-12 h-10 align-bottom pl-4 bg-black rounded-r-lg">
-              <img src="/images/icon-arrow.svg" alt="" />
+              <img src="/images/icon-arrow.svg" alt="submitBtnIcon" />
             </button>
           </div>
           {error && <p className="text-white bg-red-500 rounded-lg px-5 py-1 w-[70%] font-semibold mt-2">{error}</p>}
