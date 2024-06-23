@@ -39,6 +39,7 @@ export function Record({ results }) {
 
   return (
     <div className="flex w-[80%] max-sm:flex-col justify-evenly px-2 max-md:w-full max-sm:px-0 gap-4 max-sm:h-96 shadow-xl max-sm:py-2 rounded-xl py-6 bg-white h-40">
+      <h1>Hello world</h1>
       {tags.map((items, index) => (
         <div key={index} className="pl-5 max-sm:py-1 flex-col max-sm:text-center font-semibold h-full">
           <h2 className="text-slate-600 max-sm:text-sm">{items}:</h2>
